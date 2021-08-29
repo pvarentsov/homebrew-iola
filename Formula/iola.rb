@@ -5,7 +5,7 @@ class Iola < Formula
   desc "Socket client with REST API"
   homepage "https://github.com/pvarentsov/iola"
   url "https://github.com/pvarentsov/iola/releases/download/v0.4.2/iola-macos-amd64.tar.gz"
-  sha256 "bc8674612b0887df59136b2f728441d724780fe0304b7474da28d6768d2bc04d"
+  sha256 "548c0c499888d1bf6886a04146eb0b17d8704831b82f3401705d02c59ec3ab29"
   version "0.4.2"
 
   def install
