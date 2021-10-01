@@ -9,12 +9,12 @@ class Iola < Formula
 
   on_linux do
     url "https://github.com/pvarentsov/iola/releases/download/v0.5.2/iola-v0.5.2-linux-amd64.zip"
-    sha256 "ce83deabc37851b9dbc96434ecc750083a75164f156b643d8fe34bb122801a9d"
+    sha256 "ddb9c0104e53890a86b21b0696caead4fa8b1f1ccae02ac15ee0e7e0a1811739"
   end
 
   on_macos do
     url "https://github.com/pvarentsov/iola/releases/download/v0.5.2/iola-v0.5.2-macos-amd64.zip"
-    sha256 "821b5553ac6b7d327f55650ea5acf4c06c27f96799f35d32962fcbc1fc4db8be"
+    sha256 "5ef6120d8bd342c24825fbbb0f23b0cc6b2d55075197bd45f28fd2a936c51271"
   end
 
   conflicts_with "iola"
