@@ -5,16 +5,16 @@ class Iola < Formula
   desc "Socket client with REST API"
   homepage "https://github.com/pvarentsov/iola"
   license "MIT"
-  version "0.5.5"
+  version "0.5.7"
 
   on_linux do
-    url "https://github.com/pvarentsov/iola/releases/download/v0.5.5/iola-v0.5.5-linux-amd64.zip"
-    sha256 "9815a17d67f44901733584db10e7053a0bf2af4442a267a92eb9737c8247cfa6"
+    url "https://github.com/pvarentsov/iola/releases/download/v0.5.7/iola-v0.5.7-linux-amd64.zip"
+    sha256 "06d91835fe64ce097e152ec95ddfbbff1fe8aacb40e96c7ffb5ee7088cd96f92"
   end
 
   on_macos do
-    url "https://github.com/pvarentsov/iola/releases/download/v0.5.5/iola-v0.5.5-macos-amd64.zip"
-    sha256 "cfe9d0a5f9489c0c3a63a4a4a83a402f5c83cd88ac16f37165a24075c7b6d379"
+    url "https://github.com/pvarentsov/iola/releases/download/v0.5.7/iola-v0.5.7-macos-amd64.zip"
+    sha256 "75e97e26e2937196f368ce2ab0b873182c8c683c613a34a60cd2ff2fad36165a"
   end
 
   conflicts_with "iola"
