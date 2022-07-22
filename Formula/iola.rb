@@ -5,7 +5,7 @@ class Iola < Formula
   desc "Socket client with REST API"
   homepage "https://github.com/pvarentsov/iola"
   license "MIT"
-  version "0.5.7"
+  version "1.0.0"
 
   if OS.mac? && Hardware::CPU.intel?
     url "https://github.com/pvarentsov/iola/releases/download/v1.0.0/iola-v1.0.0-macos-x64.zip"
