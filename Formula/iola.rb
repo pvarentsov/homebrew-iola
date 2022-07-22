@@ -8,18 +8,18 @@ class Iola < Formula
   version "0.5.7"
 
   if OS.mac? && Hardware::CPU.intel?
-    url "https://github.com/pvarentsov/iola/releases/download/v0.5.7/iola-v0.5.7-macos-amd64.zip"
-    sha256 "75e97e26e2937196f368ce2ab0b873182c8c683c613a34a60cd2ff2fad36165a"
+    url "https://github.com/pvarentsov/iola/releases/download/v1.0.0/iola-v1.0.0-macos-x64.zip"
+    sha256 "8c28f41a5825bffe21a03cad078b3e3c116dd92324e5abebac810962fa0a1515"
   end
 
   if OS.mac? && Hardware::CPU.arm?
-    url "https://github.com/pvarentsov/iola/releases/download/v0.5.7/iola-v0.5.7-macos-amd64.zip"
-    sha256 "75e97e26e2937196f368ce2ab0b873182c8c683c613a34a60cd2ff2fad36165a"
+    url "https://github.com/pvarentsov/iola/releases/download/v1.0.0/iola-v1.0.0-macos-arm64.zip"
+    sha256 "3d224e6044011007ed7c7d61a8c720baf0564029939512001e6f777c8c2b4aec"
   end
 
   on_linux do
-    url "https://github.com/pvarentsov/iola/releases/download/v0.5.7/iola-v0.5.7-linux-amd64.zip"
-    sha256 "06d91835fe64ce097e152ec95ddfbbff1fe8aacb40e96c7ffb5ee7088cd96f92"
+    url "https://github.com/pvarentsov/iola/releases/download/v1.0.0/iola-v1.0.0-linux-x64.zip"
+    sha256 "181d947f658f80310ee87df781e65efc3b384b7943a60ec89047f534fb6e077e"
   end
 
   conflicts_with "iola"
